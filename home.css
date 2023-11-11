@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#backgroundVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+#profilePanel img {
+    width: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3498db; /* Adjust color as needed */
+    color: white;
+    border-radius: 5px;
+}
